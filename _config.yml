@@ -131,8 +131,8 @@ comments:
     clientSecret: 70621ad9a91c9e7a62257a8da8e5f34fde3793ec # GitHub Application Client Secret
     repository  : bluebirds-ly/blog # GitHub repo
     owner       : bluebirds-ly # GitHub repo owner
-    admin: bluebirds-ly # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-      # - your GitHub Id
+    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+      - bluebirds-ly
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
