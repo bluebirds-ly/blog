@@ -22,6 +22,12 @@
         {%- include author-links.html author=_site_author -%}
       </div>
     </div>
+    <div class="container site-info">
+        <p class="power">
+            <i class="far fa-eye"></i><span id="busuanzi_value_site_pv"></span> <i class="far fa-user"></i><span id="busuanzi_value_site_uv"></span> | Pageview:<span id="busuanzi_value_page_pv"></span>.
+        </p>
+    </div>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
     {%- assign _locale_copyright_dates = __return -%}
     <div class="site-info mt-2">

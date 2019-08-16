@@ -129,7 +129,7 @@ comments:
   gitalk:
     clientID    : 194804f74424160ed12c # GitHub Application Client ID
     clientSecret: 70621ad9a91c9e7a62257a8da8e5f34fde3793ec # GitHub Application Client Secret
-    repository  : bluebirds-ly/blog # GitHub repo
+    repository  : blog # GitHub repo
     owner       : bluebirds-ly # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       - bluebirds-ly
