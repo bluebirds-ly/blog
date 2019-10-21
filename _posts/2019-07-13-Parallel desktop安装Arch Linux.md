@@ -3,6 +3,7 @@ title: Parallel desktop安装Arch Linux
 aside: 
    toc: true
 tags: parallel_desktop Arch_Linux
+published: false
 ---
 
 
