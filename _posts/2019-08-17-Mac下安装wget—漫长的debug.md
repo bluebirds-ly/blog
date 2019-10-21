@@ -1,6 +1,9 @@
 ---
-title: mac 
-published: false
+title: Mac安装wget
+tags: Mac
+published: true
+aside:
+   toc: false
 ---
 
 
@@ -12,7 +15,7 @@ published: false
 
 3. cd
 
-4. ./config 报error，找不到openssl相关头文件，于是查找目录/usr/local/include和/usr/include，其中均未找到openssl，因此从本地找到openssl安装位置，将/include/openssl中的文件复制到/usr/local/include中，并在./config时添加--with-ssl=openssl，成功
+4. ./config 报error，找不到openssl相关头文件，于是查找目录/usr/local/include和/usr/include，其中均未找到openssl，因此从本地找到openssl安装位置，将/include/openssl中的文件复制到/usr/local/include中，并在./config时添加- -with-ssl=openssl，成功
 
 5. make 报error，一番折腾，得以继续make，在此过程中尝试升级了本地openssl版本，
 
@@ -28,7 +31,7 @@ published: false
 
    尝试继续make，依然失败...
 
-7. 灵机一动（xxx），重新./config --with-ssl=openssl，无error，make，无error！！！
+7. 灵机一动（xxx），重新./config - -with-ssl=openssl，无error，make，无error！！！
 
 8. make install
 
