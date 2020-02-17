@@ -1,10 +1,13 @@
 ---
 title: Mac安装wget
-tags: Mac
+tags: macOS wget
 published: true
 aside:
    toc: false
 key: MacWget
+sharing: true
+show_author_profile: true
+show_subscribe: true
 ---
 
 
