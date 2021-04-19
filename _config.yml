@@ -12,7 +12,7 @@
 #    `--'   `----''--'   '--' `--'
 
 
-
+theme: jekyll-text-theme
 
 ## => Site Settings
 ##############################
@@ -62,10 +62,10 @@ repository_tree: master
 ## => Paths
 ##############################
 paths:
-  root    :  # title link url, "/" (default)
-  home    :  # home layout url, "/" (default)
-  archive : # "/archive.html" (default)
-  rss     : # "/feed.xml" (default)
+  root    :   # title link url, "/" (default)
+  home    :   # home layout url, "/" (default)
+  archive : /blog/ # "/archive.html" (default)
+  rss     : /blog/ # "/feed.xml" (default)
 
 
 ## => Post
